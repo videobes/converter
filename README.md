@@ -20,23 +20,23 @@ O sistema roda em container Docker, usa bibliotecas **open source** e oferece um
 
 ## 🧩 Estrutura do Projeto
 
-/opt/videobes/converter/
+/opt/videobes/converter/<br>
+│<br>
+├── app/<br>
+│   ├── main.py              # Backend FastAPI<br>
+│   ├── templates/<br>
+│   │   └── index.html       # Interface do painel<br>
+│   ├── static/              # Estilos e scripts<br>
+│   └── converters/          # Futuras ferramentas auxiliares<br>
+│<br>
+├── data/<br>
+│   ├── uploads/             # Arquivos enviados<br>
+│   └── converted/           # Arquivos convertidos<br>
 │
-├── app/
-│   ├── main.py              # Backend FastAPI
-│   ├── templates/
-│   │   └── index.html       # Interface do painel
-│   ├── static/              # Estilos e scripts
-│   └── converters/          # Futuras ferramentas auxiliares
-│
-├── data/
-│   ├── uploads/             # Arquivos enviados
-│   └── converted/           # Arquivos convertidos
-│
-├── requirements.txt
-├── Dockerfile
-└── docker-compose.yml
-
+├── requirements.txt<br>
+├── Dockerfile<br>
+└── docker-compose.yml<br>
+<br>
 ---
 
 ## ⚙️ Instalação
@@ -64,42 +64,21 @@ http://localhost:8000
 
 
 Python 3.12 (Slim)
-
-
 FastAPI – servidor web e API
-
-
 Uvicorn – servidor ASGI
-
-
 MoviePy / Pydub – conversão de mídia
-
-
 FFmpeg – backend de renderização e codecs
-
-
 
 📂 Volumes Montados
 Caminho HostCaminho no ContainerDescrição./data/uploads/app/data/uploadsarquivos originais./data/converted/app/data/convertedarquivos convertidos
 
 🔮 Próximos Passos (Roadmap)
 
-
  Barra de progresso em tempo real (AJAX)
-
-
  Histórico de conversões
-
-
  Filtros de áudio/vídeo adicionais (ex: compressão, trim, normalize)
-
-
  Tema visual “Videobes Purple”
-
-
  Controle de acesso interno (login opcional)
-
-
 
 💡 Créditos
 Desenvolvido por Christian Simon (Videobes Multimídia)
