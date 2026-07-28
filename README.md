@@ -1,6 +1,6 @@
-# 🎬 VBESERV Converter
+# 🎬 Videobes Midia Converter
 
-Painel web local para **conversão de arquivos de vídeo e áudio**, desenvolvido para o servidor **VBESERV** da Videobes Multimídia.  
+Painel web local para **conversão de arquivos de mídia digital: áudio e vídeo**, desenvolvido para o servidor **VBESERV** da Videobes Multimídia.  
 O sistema roda em container Docker, usa bibliotecas **open source** e oferece uma interface web simples e funcional para uso interno.
 
 ---
