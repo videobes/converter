@@ -1,7 +1,7 @@
 # 🎬 Videobes Midia Converter
 
 Painel web local para **conversão de arquivos de mídia digital: áudio e vídeo**, desenvolvido para o servidor **VBESERV** da Videobes Multimídia.  
-O sistema roda em container Docker, usa bibliotecas **open source** e oferece uma interface web simples e funcional para uso interno.
+O sistema roda em container Docker, usa bibliotecas **open source** e oferece uma interface web simples e funcional para uso interno. Como foi configurado em nosso servidor nomeado de VBESERV, ele se encontra especificado com direcionamento para ele http://vbeserv:8000 , use o seu servidor http://seuservidor:8000 .
 
 ---
 
@@ -88,5 +88,4 @@ Assistência técnica e conceitual por GPTzílldo (GPT-5) 🧠
 Este projeto é open source, distribuído sob a licença MIT.
 Sinta-se livre para adaptar, expandir e integrar no seu próprio ambiente.
 
-© 2025 Videobes Multimídia. Todos os direitos reservados.
-
+© 2025 Videobes Multimídia.
